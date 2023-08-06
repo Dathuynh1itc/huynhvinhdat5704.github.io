@@ -1,0 +1,84 @@
+.dropdown:hover .dropdown-menu {
+    display:block;
+}
+.menu2{
+    background-color:#3115ad;
+}
+.menu2 a{
+    color: white;
+}
+.menu2 a:hover{
+    background-color: #3818c8;
+    color: white;
+    font-weight: bold;
+}
+.carousel-control-prev { 
+    background-color: #3115ad;
+     font-size: 5px;
+     width: 30px;
+     height: 50px;
+     margin: auto;
+    
+}
+.carousel-control-next { 
+    background-color:#3115ad;
+     font-size: 5px;
+     width: 30px;
+     height: 50px;
+     margin: auto;
+}
+.carousel-control-next { 
+     font-size: 5px;
+     width: 30px;
+     height: 50px;
+     margin: auto;
+}
+.carousel-inner{
+	cursor: pointer;
+}
+.card-img-top {
+    transition: transform 0.5s;
+}
+
+.card-img-top:hover {
+    transform: translateY(-10px);
+}
+.gia h5{
+ color:red;
+}
+.contro{
+    cursor: pointer;
+}
+.contro1 img{
+    cursor: pointer;
+}
+.contro1 img:hover{
+    opacity: 80%;
+}
+.contro1 h4:hover{
+    color: blue;
+    cursor: pointer;
+}
+.contro1 a{
+    cursor: pointer;
+}
+
+.contro1 a:hover{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.logo div{
+    visibility: hidden;
+}
+.logo:hover div{
+    visibility:visible;
+}
+.logo img{
+    cursor: pointer;
+}
+@media (max-width: 600px) { 
+    .carousel-control-prev, .carousel-control-next { 
+        display: none; 
+    } 
+}
